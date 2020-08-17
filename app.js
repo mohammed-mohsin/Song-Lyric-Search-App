@@ -33,14 +33,16 @@ const showData = (data) => {
           <div class="col-md-3 text-md-right text-center" >
               <button class="btn btn-success"data-artist="${song.artist.name}" data-songTitle="${song.title}" >Get Lyrics</button>
           </div>
+         
+          </div>
           `
         )
         .join("")}
         
         `;
-        // https://cdn-preview-9.deezer.com/stream/c-9932954858edfb53714ab5d1d9677b28-6.mp3
-        // https://cdn-preview-4.deezer.com/stream/c-4aec008ea277bade72bb31f331301b0c-7.mp3
-        // http://cdn-preview-4.deezer.com/stream/c-4aec008ea277bade72bb31f331301b0c-7.mp3
+  // https://cdn-preview-9.deezer.com/stream/c-9932954858edfb53714ab5d1d9677b28-6.mp3
+  // https://cdn-preview-4.deezer.com/stream/c-4aec008ea277bade72bb31f331301b0c-7.mp3
+  // http://cdn-preview-4.deezer.com/stream/c-4aec008ea277bade72bb31f331301b0c-7.mp3
 };
 
 // Get Lyrics button click
